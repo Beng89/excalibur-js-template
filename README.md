@@ -1,8 +1,23 @@
 # Game Template
+### Follow these instructions to create a game using [Excalibur](https://excaliburjs.com)!
 
-This is a template project for creating games using the [Excalibur](https://excaliburjs.com) game engine.
-  
 ## Getting Started
+
+**Install Dependencies**
+```shell
+npm i
+```
+  
+**Start Dev Server**
+```shell
+npm run server
+```
+  
+**View in Browser**  
+Visit http://localhost:3000 and start hacking away!
+
+___
+## Game
 
 The Game class provides an abstraction for getting started with excalibur games. It provides three methods that should be overridden.
 
