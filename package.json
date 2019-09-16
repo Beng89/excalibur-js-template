@@ -1,0 +1,30 @@
+{
+  "name": "game",
+  "description": "A template for making games!",
+  "author": "Ben Goltz <alev457@live.com>",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "server": "node server.js",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "express": "^4.17.1",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "inline-source-map": "^0.6.2",
+    "serve-static": "^1.14.1",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-middleware": "^3.7.1",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "excalibur": "^0.23.0"
+  }
+}
